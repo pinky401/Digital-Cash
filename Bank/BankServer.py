@@ -39,7 +39,7 @@ def verify_secrets(I):#To make sure that all the Identity strings are the same -
     for i in range(1,len(I)):
         if prev != I[i]: 
             Verify = False
-            print i
+            print (i)
             break
     return Verify
     
